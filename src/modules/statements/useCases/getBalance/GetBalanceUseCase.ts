@@ -11,6 +11,7 @@ interface IRequest {
 
 interface IResponse {
   statement: Statement[];
+  transfer: Statement[];
   balance: number;
 }
 
